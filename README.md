@@ -1,35 +1,47 @@
-# FreeCodeCamp - Building LLMs from Scratch
+# Large Language Model (LLM) Project
 
-## Google Colab for those who don't have a GPU: https://colab.research.google.com/drive/1_7TNpEEl8xjHlr9JzKbK5AuDKXwAkHqj?usp=sharing
+## Overview
 
-Dependencies (assuming windows): `pip install pylzma numpy ipykernel jupyter torch --index-url https://download.pytorch.org/whl/cu118`
+This repository is dedicated to building a robust, scalable language model that excels at understanding and generating human-like text. The project harnesses modern deep learning techniques to tackle a variety of natural language processing tasks, such as text generation, summarization, and classification. With a clear and modular structure, it is accessible to both beginners and experienced developers alike.
 
-If you don't have an NVIDIA GPU, then the `device` parameter will default to `'cpu'` since `device = 'cuda' if torch.cuda.is_available() else 'cpu'`. If device is defaulting to `'cpu'` that is fine, you will just experience slower runtimes.
+## What It Does
 
-## All the links you should need are in this repo. I will add detailed explanations as questions and issues are posted.
+At its core, this LLM is designed to process extensive datasets and generate coherent, contextually relevant text. Whether you're experimenting with creative text generation, automating summarization, or exploring advanced language understanding, this project provides a solid foundation. Through iterative development and continuous refinement, the model adapts to a range of applications, demonstrating both versatility and efficiency.
 
-## Visual Studio 2022 (for lzma compression algo) - https://visualstudio.microsoft.com/downloads/
+## How It Works
 
-## OpenWebText Download
-- https://skylion007.github.io/OpenWebTextCorpus/
-- if this doesn't work, default to the wizard of oz mini dataset for training / validation
+The project follows a systematic approach:
 
-## Socials
-Twitter / X - https://twitter.com/elliotarledge
+- **Data Preparation:**  
+  Includes scripts to preprocess and clean large text datasets, ensuring that the model trains on high-quality data.
+  
+- **Model Architecture:**  
+  Features a carefully designed neural network that balances performance and accuracy, optimized for handling large-scale language tasks.
+  
+- **Training and Fine-Tuning:**  
+  Utilizes state-of-the-art optimization methods. The model is trained on extensive corpora and fine-tuned to enhance performance on specific tasks.
+  
+- **Evaluation:**  
+  Comes with comprehensive evaluation metrics and testing scripts to monitor model performance and guide improvements.
 
-My YouTube Channel - https://www.youtube.com/channel/UCjlt_l6MIdxi4KoxuMjhYxg
+## What It Accomplishes
 
-How to SSH from Mac to Windows - https://www.youtube.com/watch?v=7hBeAb6WyIg&t=
+This project offers:
+- A clear pathway to building a modern language model from scratch.
+- An educational resource that demystifies the complexities of LLMs.
+- A flexible framework adaptable to various natural language processing applications.
+- A real-world example of iterative development and continuous learning in practice.
 
-How to Setup Jupyter Notebooks in 5 minutes or less - https://www.youtube.com/watch?v=eLmweqU5VBA&t=
 
-Linkedin - https://www.linkedin.com/in/elliot-arledge-a392b7243/
 
-Join My Discord Server - https://discord.gg/pV7ByF9VNm
+Dependencies: `pip install pylzma numpy ipykernel jupyter torch --index-url https://download.pytorch.org/whl/cu118`
 
-Schedule a 1-on-1: https://calendly.com/elliot-ayxc/60min
 
-## Research Papers:
+
+## Research Papers and Sources:
+
+Youtube -  https://www.youtube.com/channel/UCjlt_l6MIdxi4KoxuMjhYxg
+
 Attention is All You Need - https://arxiv.org/pdf/1706.03762.pdf
 
 A Survey of LLMs - https://arxiv.org/pdf/2303.18223.pdf
